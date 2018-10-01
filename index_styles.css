@@ -3,12 +3,24 @@
     src: url("fonts/LondiniaMedium.ttf") format("truetype");
 }
 
-html { 
-  background: url(images/001-PilatesOnPark-2011.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body { 
+	margin: auto;
+	height: 100%;
+	width: 1300px;
+	background-color: #000000;
+}
+
+.bg-image-container {
+	position: fixed;
+	top: 30%;
+	width: 1300px;
+	height: 75%;
+}
+
+.page-header {
+	width: 1300px;
+	height: 25%;
+	position: fixed;
 }
 
 a:link {
@@ -20,22 +32,12 @@ a:visited {
 	text-decoration: none;
 }
 
-
 a:hover {
-	height: 250px;
-	width: 250px;
 	color: #FFFFFF;
 	background-color: #333333;
 	border-width: 5px;
 	border-radius: 10px;
 	animation-name: grow_shrink;
-	animation-duration: .2s; 
-	animation-timing-function: ease-out; 
-	animation-delay: 0;
-	animation-direction: alternate;
-	animation-iteration-count: 2;
-	animation-fill-mode: none;
-	animation-play-state: running;
 }
 
 @keyframes grow_shrink {
@@ -44,7 +46,6 @@ a:hover {
   }
   to {
     opacity: 1;
-    font-size: 130%;
   }
 }
 
@@ -53,24 +54,40 @@ a:active {
 	text-decoration: none;
 }
 
-.links {
+.link-container {
+	display: inline-flex;
+	position: fixed;
+	top: 25%;
+	width: 1300px;
+	height: 5%;
+	background-color: #333333;
+}
+
+.buttons {
+	display: inline-flex;
 	font-family: Londinia, sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #000000;
-	margin: 2vw;
+	margin: auto;
 }
 
 .logo_img {
-	width: 38vw;
-	height: 10vw;
-	border: solid;
-	border-width: 3px;
-	border-color: #000000;
-	border-radius: 20px;
+	width: 1300px;
+	height: 25%;
 	position: fixed;
-	left: 57%;
-	top: 72%;
 }
 
+.fadein { 
+	position:relative; 
+	height: 100%; 
+	width: 1300px; 
+}
 
+.fadein img { 
+	position:absolute; 
+	left: 0; 
+	top: 0;
+	width: 1300px; 
+	height: 100%;
+}
