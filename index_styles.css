@@ -18,17 +18,20 @@ body {
 }
 
 .page-header {
-	width: 1300px;
+	width: 1100px;
 	height: 25%;
 	position: fixed;
 }
 
+.page-header-jennifer {
+	width: 200px;
+	height: 25%;
+	display: inline;
+	float: right;
+}
+
 a:link {
 	color: #6F8558;
-	text-decoration: none;
-}
-a:visited {
-	color: #000000;
 	text-decoration: none;
 }
 
@@ -73,9 +76,29 @@ a:active {
 }
 
 .logo_img {
-	width: 1300px;
+	width: 1100px;
 	height: 25%;
 	position: fixed;
+}
+
+.jennifer_img {
+	width: 200px;
+	height: 25%;
+	position: fixed;
+	float: right;
+	z-index: -1;
+}
+
+.jennifer-link {
+	font-family: Londinia, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	z-index: 1;
+	color: #6F8558;
+	text-align: center;
+	position: relative;
+	top: 175px;
+	margin: auto;
 }
 
 .fadein { 
