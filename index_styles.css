@@ -123,3 +123,21 @@ a:active {
 	width:  1200px; 
 	height: 100%;
 }
+
+@media screen and (max-width: 900px) {
+	html {
+	margin: 20px;
+	background-color: red;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	html {
+	background-color: green;
+	}
+
+	.header	{
+	height: 140px;
+	}
+}
