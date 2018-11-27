@@ -94,6 +94,12 @@ a:hover {
 
 
 
-p {
+.instructors {
 	color:white;
+	font-size: 2em;
+	display: 
+}
+
+.instructor-img {
+	display: inline-flex
 }
