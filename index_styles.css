@@ -94,16 +94,21 @@ a:hover {
 
 
 
-.instructors {
+
+.instructor-container {
+	
+}
+
+.instructor-txt {
 	width: auto;
 	height: auto;
-	color:white;
+	color: white;
 	font-size: 2em;
-	display: inline;  
+	display: flex;  
 }
 
 .instructor-img {
 	width: auto;
 	height: auto;
-	display: inline;
+	display: flex;
 }
