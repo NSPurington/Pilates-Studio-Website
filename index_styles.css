@@ -95,11 +95,15 @@ a:hover {
 
 
 .instructors {
+	width: auto;
+	height: auto;
 	color:white;
 	font-size: 2em;
-	display: 
+	display: inline;  
 }
 
 .instructor-img {
-	display: inline-flex
+	width: auto;
+	height: auto;
+	display: inline;
 }
