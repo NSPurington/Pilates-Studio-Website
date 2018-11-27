@@ -96,19 +96,22 @@ a:hover {
 
 
 .instructor-container {
-	
+	display: flex;
+	margin-bottom: 9%;
+	margin-top: 4%;
+}
+
+.instructor-img {
+	width: auto;
+	height: auto;
+	display: block;
+	margin: 2%;
 }
 
 .instructor-txt {
 	width: auto;
 	height: auto;
 	color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 	display: flex;  
-}
-
-.instructor-img {
-	width: auto;
-	height: auto;
-	display: flex;
 }
