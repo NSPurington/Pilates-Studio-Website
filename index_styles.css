@@ -163,9 +163,23 @@ h1 {
 
 
 
+.classes-intro {
+	font-family: Londinia;
+	color: white;
+	font-size: 1.5em;
+	margin-bottom: 4em;
+}
+
 .classes-txt {
 	font-family: Londinia;
 	color: white;
-	font-size: 1em;
+	font-size: 1.5em;
+	margin-bottom: 4em;
+}
+
+.classes-disclaimer {
+	font-family: Londinia;
+	color: white;
+	font-size: 1.5em;
 	margin-bottom: 4em;
 }
