@@ -140,8 +140,9 @@ h1 {
 	font-family: Londinia;
 	color: white;
 	font-size: 1em;
+	margin-bottom: 4em;
 }
 
-.wiki-headline + .wiki-headline {
-	margin-top: 2em;
+p + .wiki-headline {
+	margin-top: 6em;
 }
