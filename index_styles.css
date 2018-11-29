@@ -5,6 +5,7 @@
 
 body { 
 	background-color: #000000;
+	font-family: Londinia, sans-serif;
 	margin: auto;
 	width: 1200px;
 	height: auto;
@@ -31,7 +32,6 @@ body {
 }
 
 .jennifer-link {
-	font-family: Londinia, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	color: #6F8558;
@@ -45,7 +45,6 @@ body {
 }
 
 .buttons {
-	font-family: Londinia, sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	color: #6F8558;
@@ -111,7 +110,6 @@ a:hover {
 .instructor-txt {
 	width: auto;
 	height: auto;
-	font-family: Londinia;
 	color: white;
 	font-size: 1.5em;
 	display: flex;  
@@ -122,7 +120,6 @@ p {
 }
 
 h1 {
-	font-family: Londinia;
 	color: white;
 	font-size: 2em;
 	margin-top: 4em;
@@ -140,14 +137,12 @@ h1 {
 
 
 .first-headline, h1, h2 {
-	font-family: Londinia;
 	color: white;
 	margin-top: 6em;
 	text-align: center;
 }
 
 .wiki-txt {
-	font-family: Londinia;
 	color: white;
 	font-size: 1em;
 	margin-bottom: 4em;
@@ -164,7 +159,6 @@ h1 {
 
 
 .classes-intro {
-	font-family: Londinia;
 	color: white;
 	font-size: 1.5em;
 	margin-top: 2em;
@@ -172,20 +166,17 @@ h1 {
 }
 
 .classes-link {
-	font-family: Londinia;
 	color: #6F8558;
 	font-size: 1.5em;
 }
 
 .classes-txt, .services-txt {
-	font-family: Londinia;
 	color: white;
 	font-size: 1.5em;
 	margin-bottom: 4em;
 }
 
 .classes-disclaimer {
-	font-family: Londinia;
 	color: #6F8558;
 	font-size: 1.5em;
 	margin-top: 4em;
@@ -194,7 +185,6 @@ h1 {
 
 
 .services-intro {
-	font-family: Londinia;
 	color: white;
 	font-size: 1.8em;
 	margin-top: 2em;
@@ -202,7 +192,6 @@ h1 {
 }
 
 .services-link {
-	font-family: Londinia;
 	color: #6F8558;
 	font-size: 1.25em;
 	margin-bottom: 2em;
