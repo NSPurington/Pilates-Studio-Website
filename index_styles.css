@@ -171,7 +171,7 @@ h1 {
 	margin-bottom: 2em;
 }
 
-.classes-link, .services-link {
+.classes-link {
 	font-family: Londinia;
 	color: #6F8558;
 	font-size: 1.5em;
@@ -192,3 +192,18 @@ h1 {
 	margin-bottom: 4em;
 }
 
+
+.services-intro {
+	font-family: Londinia;
+	color: white;
+	font-size: 1.8em;
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+}
+
+.services-link {
+	font-family: Londinia;
+	color: #6F8558;
+	font-size: 1.25em;
+	margin-bottom: 2em;
+}
