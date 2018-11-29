@@ -196,3 +196,15 @@ h1 {
 	font-size: 1.25em;
 	margin-bottom: 2em;
 }
+
+
+.footer {
+	display: inline-flex;
+	color: white;
+	width: 1200px;
+	height: 4vh;
+	background-color: #333333;
+	align-items:center;
+	justify-content: center;
+}
+
