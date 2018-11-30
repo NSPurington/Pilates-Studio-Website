@@ -5,6 +5,7 @@
 
 body { 
 	background-color: #000000;
+	color: #ffffff;
 	font-family: Londinia, sans-serif;
 	margin: auto;
 	width: 1200px;
@@ -51,16 +52,6 @@ body {
 	margin: auto;
 }
 
-.bg-image-container {
-	width:  1200px;
-	object-fit: contain;
-}
-
-.fadein { 
-	width:  1200px; 
-	height: auto;
-}
-
 iframe {
     width: 1200px;
     height: 100vh;
@@ -77,21 +68,17 @@ a:hover {
 	color: #ff009b;
 }
 
-@media screen and (max-width: 900px) {
-	html {
-	background-color: red;
-	}
-
-}
-
-@media screen and (max-width: 600px) {
-	html {
-	background-color: green;
-	}
-
+.footer {
+	display: inline-flex;
+	width: 1200px;
+	height: 4vh;
+	background-color: #333333;
+	align-items:center;
+	justify-content: center;
 }
 
 
+/*-------------------Instructor Page-------------------*/
 
 
 .instructor-container {
@@ -110,7 +97,6 @@ a:hover {
 .instructor-txt {
 	width: auto;
 	height: auto;
-	color: white;
 	font-size: 1.5em;
 	display: flex;  
 }
@@ -120,7 +106,6 @@ p {
 }
 
 h1 {
-	color: white;
 	font-size: 2em;
 	margin-top: 4em;
 }
@@ -130,36 +115,30 @@ h1 {
 }
 
 
-
-
-
-
+/*-------------------Pilatesfitness Page-------------------*/
 
 
 .first-headline, h1, h2 {
-	color: white;
 	margin-top: 6em;
 	text-align: center;
 }
 
 .wiki-txt {
-	color: white;
 	font-size: 1em;
 	margin-bottom: 4em;
 }
 
 .wiki-attribute {
-	color: white;
 	font-size: 1em;
 	margin-top: 6em;
 	margin-bottom: 4em;
 }
 
 
+/*-------------------Classes & Contact Pages-------------------*/
 
 
 .classes-intro, .contact-txt {
-	color: white;
 	font-size: 1.5em;
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -171,7 +150,6 @@ h1 {
 }
 
 .classes-txt, .services-txt {
-	color: white;
 	font-size: 1.5em;
 	margin-bottom: 4em;
 }
@@ -183,9 +161,7 @@ h1 {
 	margin-bottom: 4em;
 }
 
-
 .services-intro {
-	color: white;
 	font-size: 1.8em;
 	margin-top: 2em;
 	margin-bottom: 1.5em;
@@ -196,15 +172,3 @@ h1 {
 	font-size: 1.25em;
 	margin-bottom: 2em;
 }
-
-
-.footer {
-	display: inline-flex;
-	color: white;
-	width: 1200px;
-	height: 4vh;
-	background-color: #333333;
-	align-items:center;
-	justify-content: center;
-}
-
